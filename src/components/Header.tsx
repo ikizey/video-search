@@ -12,8 +12,12 @@ export default function Header() {
       </div>
       <div>
         <Link href='/'>
-          <h2 className='sm:hidden md:inline text-xl'>Video Search</h2>
-          <h2 className='hidden md:hidden text-xl'>VS</h2>
+          <h2 className='hidden sm:inline text-xl font-bold bg-blue-400 text-amber-500 p-2 rounded-lg'>
+            Video Search
+          </h2>
+          <h2 className='sm:hidden text-xl font-bold bg-blue-400 text-amber-500 p-2 rounded-lg'>
+            VS
+          </h2>
         </Link>
       </div>
     </div>
