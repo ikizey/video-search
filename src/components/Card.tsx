@@ -9,7 +9,7 @@ export default function Card({ result }: { result: IResult }) {
       <Link href={`/movie/${result.id}`}>
         <Image
           src={`https://image.tmdb.org/t/p/original/${
-            result.backdrop_path || result.poster_path
+            result.poster_path || result.backdrop_path
           }`}
           alt={`poster of ${result.title || result.original_title}`}
           width={500}
