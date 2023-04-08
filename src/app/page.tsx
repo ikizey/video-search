@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { IResults } from '@/types/Result';
 import Results from '@/components/Results';
 
